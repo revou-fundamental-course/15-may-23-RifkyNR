@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifky Noor Ramdhani</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header design -->
+    <div>
+        <header class="header">
+            <h2 class="judul">KATIK <span>Kalkulator Matematik</span></h2>
+        </header>
+    </div>
+
+    <!-- content design-->
+    <div>
+        <main class="main-content">
+            <div class="border-content">
+                <h2>Welcome to Katik</h2>
+                <p>Hai Sobat, Selamat Datang di Katik :)</p>
+                <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+                <a href="index.html" class="persegi" id="myElement">Luas Persegi</a>
+                <a href="keliling.html" class="persegi-panjang" id="myElement2">Keliling Persegi</a>
+            <div class="luas-persegi">
+                <h2>Keliling Persegi</h2>
+            </div>
+            <div class="kotak">
+              <p class="top">A <span>-------------------</span> B</span></p>
+              <p class="bottom">D <span>------------------</span> C</p>
+            </div>
+            <h3 class="bujur-sangkar"><strong>Bujur Sangkar</strong></h3>
+            <p class="ket1">Rumus Keliling Persegi Yaitu :</p>
+            <p class="ket2"><strong>K = 4 X S</strong></p>
+            <p class="ket3">Di mana :</p>
+            <p class="ket31">K = Keliling</p>
+            <p class="ket31">s = Sisi</p>
+            <hr class="garis">
+
+            <!-- Halaman perhitungan-->
+            <h1 class="jdl-hlp">Hitung Keliling Persegi</h1>
+            <input class="input-lp" id="sisi-keliling" name="sisi-keliling" placeholder="Nilai Sisi" required>
+            <br>
+
+            <!-- output hasil-->
+            <p class="result-keliling" id="rumus-keliling"></p>
+            <p class="result-keliling2" id="perhitungan-keliling"></p>
+            <p class="result-keliling3"><span id="output_keliling"></span></p>
+
+            <!-- button -->
+            <button class="btn-hlp" name="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+            <br>
+            <div class="container-btn">
+                <button class="btn-reset" name="reset-keliling" onclick="reset2()">Reset</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
